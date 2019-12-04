@@ -1,0 +1,108 @@
+/*limpar todos os padrões*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", sans-serif;
+	background: #f3f3f3;
+}
+
+h2 {
+	color: #b9c951;
+}
+
+#navegacao {
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	height: 40px;
+	padding: 1px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#area {
+	width: 720px;
+	margin: 0 auto;
+}
+
+#area-principal {
+	width: 720px;
+	margin: 50px auto 10px auto;
+}
+
+#logo{
+	float: left;
+	padding: 5px;
+}
+
+#menu{
+	float: right;
+	padding: 15px 0;
+}
+
+.postagem {
+	background: #fff;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.img-postagem {
+	float: left;
+	margin: 0 15px 25px 0;
+}
+
+.postado {
+	padding-left: 5px;
+	border-left: 5px solid #d8d8d8;
+	display: block;
+	margin-top: 10px;
+}
+
+.ultimo-p {
+	margin-bottom: 30px;
+}
+
+.data-postagem {
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.verde{
+	color: #b9c951;
+}
+
+
+/* Formatação do Menu */
+a{
+	text-decoration: none;
+	padding: 5px 5px;
+}
+
+/*Não visitados*/
+a:link {
+	color: #838383;
+}
+
+/*Visitados*/
+a:visited {
+	color: #838383;
+}
+
+/*Cursor sobre o link*/
+a:hover {
+	color: #fff;
+	background: #b9c951;
+}
+
+/*Ao clicar*/
+a:active {
+	background: #fff;
+	color: #535353;
+}
